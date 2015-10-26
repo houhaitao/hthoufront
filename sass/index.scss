@@ -1,0 +1,248 @@
+.lgb_hdp{
+  width: 449px;
+  padding: 20px;
+
+  img{
+    width: 449px;
+    height: 249px;
+  }
+  .silder{
+    width: 449px;
+    height: 249px;
+    overflow: hidden;
+    position: relative;
+    .slide-news-pager{
+      position: absolute;
+      top: 218px;
+      text-align: right;
+      width: 119px;
+      left: 320px;
+      padding-right: 10px;
+      a{
+        background: url("../images/black_point.png") no-repeat;
+        width: 14px;
+        height: 14px;
+        display: inline;
+        float: left;
+        margin-left: 5px;
+        span{
+          display: block;
+          width: 0px;
+          height: 0px;
+          overflow: hidden;
+        }
+      }
+      .selected{
+        background: url("../images/light_point.png") no-repeat;
+      }
+
+    }
+    .silder_hdp{
+      display: block;
+
+      li{
+        display: block;
+        float: left;
+        position: relative;
+        .text{
+          position:absolute;
+          top: 205px;
+          left: 0px;
+          color: #ffffff;
+          font-size: 14px;
+          padding-left: 30px;
+          width: 419px;
+          height: 33px;
+          padding-top: 12px;
+          background: #000000;
+          background-color: rgba(0,0,0,0.5);
+
+          -moz-opacity: .5;
+          filter: alpha(opacity=50);
+        }
+      }
+
+    }
+
+  }
+}
+.silder_text{
+  padding-top: 59px;
+  width: 322px;
+  height: 305px;
+  li{
+    background: url("../images/li_06.png") no-repeat 10px 8px;
+    display: block;
+    height: 20px;
+    padding-left: 22px;
+    padding-bottom: 10px;
+    a{
+      font-size: 14px;
+      color: #2f458b;
+      &:hover { color: #2f458b; }
+
+    }
+    span{
+      color: #555555;
+      font-size: 14px;
+      padding-left: 10px;
+      display: inline-block;
+    }
+
+  }
+  .more{
+    text-align: right;
+    padding-right: 10px;
+    a{
+      color: #555555;
+      font-size: 14px;
+      &:hover { color: #555555; }
+    }
+  }
+}
+
+.common_text{
+
+  li{
+    background: url("../images/li_06.png") no-repeat 10px 8px;
+    display: block;
+    height: 20px;
+    padding-left: 22px;
+    padding-bottom: 10px;
+    a{
+      font-size: 14px;
+      color: #2f458b;
+      &:hover { color: #2f458b; }
+
+    }
+    span{
+      color: #555555;
+      font-size: 14px;
+      padding-left: 10px;
+      display: inline-block;
+    }
+
+
+  }
+  .more{
+    text-align: right;
+    padding-right: 10px;
+    a{
+      color: #555555;
+      font-size: 14px;
+      &:hover { color: #555555; }
+    }
+  }
+  .lgb_title{
+    padding-left: 35px;
+    background: url("../images/goto.png") no-repeat 10px 6px;
+  }
+}
+.tzgg_area{
+  padding-top: 19px;
+  padding-left: 40px;
+  width: 322px;
+  height: 325px;
+}
+
+.index_other{
+  height: 325px;
+}
+
+.xxyd_area{
+  padding-top: 19px;
+  padding-left: 10px;
+  padding-right: 40px;
+  width: 362px;
+  height: 300px;
+  position: relative;
+}
+.lndx_area{
+  padding-top: 19px;
+  padding-left: 10px;
+  padding-right: 40px;
+  width: 362px;
+  height: 300px;
+  position: relative;
+}
+.hdbm_area{
+  padding-top: 19px;
+  padding-left: 10px;
+  width: 342px;
+  height: 300px;
+  position: relative;
+}
+.hdhg{
+  height: 300px;
+  width: 100%;
+  .lgb_title{
+    padding-left: 45px;
+    background: url("../images/goto.png") no-repeat 20px 6px;
+  }
+  .more{
+    padding-top: 10px;
+    padding-right: 20px;
+    width: 1180px;
+    text-align: right;
+    a{
+      color: #555555;
+      font-size: 14px;
+      &:hover { color: #555555; }
+    }
+  }
+}
+.index_img_silder{
+  height: 251px;
+  width: 100%;
+  position: relative;
+  .slide-news-pager{
+    display: none;
+  }
+  .slide-news{
+    background: #f6f5f5;
+    height: 250px;
+    overflow: hidden;
+    padding-left: 7px;
+    display: inline-block;
+    li{
+      display: block;
+      float: left;
+      padding-right: 5px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      img{
+        width: 380px;
+        height: 211px;
+      }
+    }
+  }
+  .slide-news-prev{
+    display: block;
+    width: 40px;
+    height: 65px;
+    position: absolute;
+    top:90px;
+    left: 7px;
+    background: url("../images/toleft.png") no-repeat 5px 16px;
+    &:hover {
+      background-color: rgba(0,0,0,0.4);
+      -moz-opacity: .4;
+      filter: alpha(opacity=40);
+    }
+  }
+
+  .slide-news-next{
+    display: block;
+    width: 40px;
+    height: 65px;
+    position: absolute;
+    top:90px;
+    left: 1147px;
+    background: url("../images/toright.png") no-repeat 18px 16px;
+    &:hover {
+      background-color: rgba(0,0,0,0.4);
+      -moz-opacity: .4;
+      filter: alpha(opacity=40);
+    }
+  }
+}

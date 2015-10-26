@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <!-- build:js -->
+    <script src="js/respond.min.js"></script>
+    <script src="js/jquery/jquery-1.8.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <!-- endbuild -->
+
+    <script src="js/avalon/avalon.js" data-main="js/main"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!--[if IE 6]>
+    <script src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+    <script>
+        require(["domReady!"], function(){
+            window.DD_belatedPNG.fix('.pngFix');
+        });
+    </script>
+    <![endif]-->
+    <!--[/include]-->
+</head>
+<body>
+<div class="lgb_body">
+    <div class="lgb_header">
+        <div class="lgb_header_top">
+            <a href="/"> <img src="../images/dd_03.png"></a>
+            <div class="search">
+                <form action="" method="post">
+                <input type="text" class="form_text" name="q" style="padding: 0px;" placeholder="  请输入关键字"/>
+                <input type="submit" class="form_submit" value="" style="padding: 0px;">
+                </form>
+            </div>
+        </div>
+        <div class="lgb_header_nav">
+            <div class="nav_main">
+                <ul>
+                    <li class="curr">
+                        <a href="#">首页</a>
+                    </li>
+                    <li>
+                        <a href="#">部门概况</a>
+                    </li>
+                    <li>
+                        <a href="#">组织机构</a>
+                    </li>
+                    <li>
+                        <a href="#">工作动态</a>
+                    </li>
+                    <li>
+                        <a href="#">工作管理</a>
+                    </li>
+                    <li>
+                        <a href="#">政策传递</a>
+                    </li>
+                    <li>
+                        <a href="#">学习园地</a>
+                    </li>
+                    <li>
+                        <a href="#">老年大学</a>
+                    </li>
+                    <li>
+                        <a href="#">光荣榜</a>
+                    </li>
+                    <li>
+                        <a href="#">下载专区</a>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="lgb_content">
+        <div class="lgb_banner">
+            <div class="lgb_float_left lgb_hdp">
+                <div class="lgb_title">工作动态</div>
+                <div class="silder">
+                    <ul class="silder_hdp">
+                        <li>
+                            <img src="images/pic_03.png" alt=""/>
+                            <div class="text">2015年学术讨论会在我校召开</div>
+                        </li>
+                        <li>
+                            <img src="images/pic_03.png" alt=""/>
+                            <div class="text">2015年学术讨论会在我校召开1</div>
+                        </li>
+                        <li>
+                            <img src="images/pic_03.png" alt=""/>
+                            <div class="text">2015年学术讨论会在我校召开2</div>
+                        </li>
+                    </ul>
+                    <div class="slide-news-pager"></div>
+                </div>
+            </div>
+            <script>
+                var $highlight = function(){
+                    $('.silder_hdp').trigger('scroll');
+                };
+
+                $(function(){
+                    $('.silder_hdp').carouFredSel({
+                        auto: true,
+                        responsive: true,
+                        pagination: ".slide-news-pager",
+                        width: "100%",
+                        height: 'variable',
+                        onCreate    : $highlight,
+                        scroll : {pauseOnHover:true, onAfter : $highlight, items : 1},
+                        items: {
+                            visible: 1,
+                            width: 449,
+                            height: 'variable'
+                        }
+                    });
+                    $('.ssilder_hdp').swipe({
+                        excludedElements: "button, input, select, textarea, .noSwipe",
+                        swipeLeft: function() {
+                            $(this).trigger('next');
+                        },
+                        swipeRight: function() {
+                            $(this).trigger('prev');
+                        }
+                    });
+                })
+
+                var width = $('.slide-news-wrap').width();
+                $('.slide-news li').css("width", width);
+            </script>
+            <div class="lgb_float_left silder_text">
+                <ul>
+                    <li><a href="#">2015年学术研讨会在我校召开</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015全国博弈论与实验经济研究会...</a><span>[15.09.24]</span></li>
+                </ul>
+                <div class="more"><a href="#">更多</a></div>
+            </div>
+            <div class="lgb_float_left common_text tzgg_area">
+                <div class="lgb_title">通知公告</div>
+                <ul>
+                    <li><a href="#">2015年学术研讨会在我校召开</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015全国博弈论与实验经济研究会...</a><span>[15.09.24]</span></li>
+                </ul>
+                <div class="more"><a href="#">更多</a></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="index_other">
+            <div class="lgb_float_left common_text xxyd_area">
+                <div class="lgb_title">学习园地</div>
+                <ul>
+                    <li><a href="#">2015年学术研讨会在我校召开</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015全国博弈论与实验经济研究会...</a><span>[15.09.24]</span></li>
+                </ul>
+                <div class="more"><a href="#">更多</a></div>
+            </div>
+            <div class="lgb_float_left common_text lndx_area">
+                <div class="lgb_title">老年大学</div>
+                <ul>
+                    <li><a href="#">2015年学术研讨会在我校召开</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015全国博弈论与实验经济研究会...</a><span>[15.09.24]</span></li>
+                </ul>
+                <div class="more"><a href="#">更多</a></div>
+            </div>
+            <div class="lgb_float_left common_text hdbm_area">
+                <div class="lgb_title">活动报名<i class="hot"></i></div>
+                <ul>
+                    <li><a href="#">2015年学术研讨会在我校召开</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015年学术研讨会在我校召</a><span>[15.09.24]</span></li>
+                    <li><a href="#">2015全国博弈论与实验经济研究会...</a><span>[15.09.24]</span></li>
+                </ul>
+                <div class="more"><a href="#">更多</a></div>
+            </div>
+            <div class="lgb_float_left hdhg">
+                <div class="lgb_title">活动回顾</div>
+                <div class="index_img_silder">
+                    <ul class="slide-news">
+                        <li><a href="#" target="_blank"><img src="images/hdhg_11.png"/></a></li>
+                        <li><a href="#" target="_blank"><img src="images/hdhg_13.png"/></a></li>
+                        <li><a href="#" target="_blank"><img src="images/hdhg_11.png"/></a></li>
+                        <li><a href="#" target="_blank"><img src="images/hdhg_13.png"/></a></li>
+                        <li><a href="#" target="_blank"><img src="images/hdhg_11.png"/></a></li>
+                        <li><a href="#" target="_blank"><img src="images/hdhg_13.png"/></a></li>
+                        <li><a href="#" target="_blank"><img src="images/hdhg_11.png"/></a></li>
+                    </ul>
+
+                    <a href="#" class="slide-news-prev hidden5"></a>
+                    <a href="#" class="slide-news-next hidden5"></a>
+
+                </div>
+                <div class="more"><a href="">更多</a></div>
+            </div>
+            <script>
+                var $highlight = function(){
+                    $('.slide-news').trigger('scroll');
+                };
+
+                $(function(){
+                    $('.slide-news').carouFredSel({
+                        auto: true,
+                        prev: '.slide-news-prev',
+                        next: '.slide-news-next',
+                        responsive: true,
+                        width: "100%",
+                        height: 'variable',
+                        onCreate    : $highlight,
+                        scroll : {pauseOnHover:true, onAfter : $highlight, items : 1},
+                        items: {
+                            visible: 3,
+                            width: 380,
+                            height: 'variable'
+                        }
+                    });
+                    $('.slide-news').swipe({
+                        excludedElements: "button, input, select, textarea, .noSwipe",
+                        swipeLeft: function() {
+                            $(this).trigger('next');
+                        },
+                        swipeRight: function() {
+                            $(this).trigger('prev');
+                        }
+                    });
+                })
+
+                var width = $('.slide-news-wrap').width();
+                $('.slide-news li').css("width", width);
+            </script>
+
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="footer">
+    <div class="white"></div>
+    <div class="footer-main">
+        <div class="footer-text">权所有 © 2014-2015 东北财经大学 | 地址：中国·辽宁·大连市沙河口区尖山街217号 | 邮编：116025</div>
+    </div>
+</div>
+</body>
+</html>
